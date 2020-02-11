@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RatingBar</string>
+    <string name="submit">Submit</string>
+    <string name="plz_rate_me">Plz Rate Me!!!!</string>
+</resources>

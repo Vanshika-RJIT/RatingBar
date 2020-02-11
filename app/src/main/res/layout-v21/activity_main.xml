@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    tools:context=".MainActivity">
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="100dp"
+        android:background="#F44336"
+        android:progressTint="@android:color/background_light"
+        />
+    
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="130dp"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+       />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="120dp"
+        android:text="@string/plz_rate_me"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+</RelativeLayout>
